@@ -1,7 +1,29 @@
 header {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+#row {
+  display: flex;
+}
+button {
+  background-color: #fea801;
+  border: none;
+  padding: 15px 15px;
+}
+#col {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #row {
+    display: block;
+  }
+}
+#logo_and_text {
+  display: flex;
 }
